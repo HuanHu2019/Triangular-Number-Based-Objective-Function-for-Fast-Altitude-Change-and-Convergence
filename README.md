@@ -1,0 +1,2 @@
+# RS-CTE_objective_function_for_fast_response_and_subsequent_approach
+An objective function for fast response and subsequent approach
