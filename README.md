@@ -1,14 +1,7 @@
 # Triangular Number-Based Objective Function for Trajectory Planning of Wing-in-Ground Crafts' Fast Altitude Change and Convergence via Deep Reinforcement Learning
 
 
-# Multi-objective reward shaping for global and local trajectory planning of wing-in-ground crafts based on deep reinforcement learning
-
-* **Description on directories:**  There are 10 directories from '0' to '9' whose seed are different. Inside each directory, there are 13 sub directories which are sub cases of Case 1 and Case 2. Each subcase corresponds to one trajectory. The relation between the planned trajectory and the name of sub directory is in the following table:
-
-|   | | | | | | | |      
-| -------- |  -------- | -------- | -------- | -------- | -------- | -------- | -------- |
-| Case 1 (globally) | $T_{g,0}$ :'0d0s0g' | $T_{g,1}$ :'1d0s0g' |$T_{g,2}$ :'2d0s0g' |$T_{g,3}$ :'0d1s0g' |$T_{g,4}$ :'0d2s0g' |$T_{g,5}$ :'0d0s1g' |$T_{g,6}$ :'0d0s2g' |
-| Case 2 (locally)  | $T_{g,0}$ :'0d0s0g' | $T_{l,1}$ :'3d0s0g' |$T_{l,2}$ :'4d0s0g' |$T_{l,3}$ :'0d3s0g' |$T_{l,4}$ :'0d4s0g' |$T_{l,5}$ :'0d0s3g' |$T_{l,6}$ :'0d0s4g' |
+* **Description on directories:**  Directories named with "multiobj_w_" are cases of conventional multi-objective functions, whose magnitude of weight are labeled at the end of the name. Directories named with "proposed_obj_coeff_" represent cases of the proposed objective function, whose magnitude of coefficient is written at the end of the name. 
 
 
 
