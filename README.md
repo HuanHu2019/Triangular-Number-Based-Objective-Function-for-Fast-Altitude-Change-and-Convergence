@@ -1,7 +1,7 @@
 # Triangular Number-Based Objective Function for Trajectory Planning of Wing-in-Ground Crafts' Fast Altitude Change and Convergence via Deep Reinforcement Learning
 
 
-* **Description on directories:**  Directories named with "multiobj_w_" are cases of conventional multi-objective functions, whose magnitude of weight are labeled at the end of the name. Directories named with "proposed_obj_coeff_" represent cases of the proposed objective function, whose magnitude of coefficient is written at the end of the name. At each directory, code for each case is placed under the sub directory named 'jietijihua'. Each case are examined with eight different seeds, so there are eight sub directories named with "s_", where main code files locate.
+* **Description on directories:**  Directories named with "multiobj_w_" are cases of conventional multi-objective functions, whose magnitude of weight are labeled at the end of the name. Directories named with "proposed_obj_coeff_" represent cases of the proposed objective function, whose magnitude of coefficient is written at the end of the name. At each directory, code for each case is placed under the sub directory named 'jietijihua'. Each case are examined with eight different seeds, so there are eight sub-sub directories named with "s_", where main code files locate.
 
 * **Main code file:** At the each sub-sub directory, there are six files for the training, which are as following:
 1. *Main.py*. It's main function and the training environment and reward function are defined. 
@@ -16,7 +16,7 @@
 
 * **Prerequisites for running codes:**  Pytorch is needed to be installed in advance. In order to run the code at each sub-sub directory, the file 'datacollection.npy' should be downloaded and then placed in the root directory, meaning that it is placed with '0','1', etc. Since the website of Github limits the size of files, the necessary file and main results are placed in the same directory and they are upload in onedrive. The link is https://maildluteducn-my.sharepoint.com/:f:/g/personal/huhuan2019_mail_dlut_edu_cn/Eto68Yzc8KlKox0pZQeHn9wBiDSPEWZicshKlKtGgfqWRA?e=OUg4KN. The file 'datacollection.npy' is used for the calculation of aerodynamics for the WIG.
 
-* **Main results after running codes:** At the each sub-sub directory of 'Results' (in the onedrive or be downloaded), there are eight files which are the outputs after the training, which are as following:
+* **Main results after running codes:** At the each sub directory of 'jietijihua' (in the onedrive or be downloaded), there are eight picture which are the outputs after the training, the outcome of the whole eight sub cases are labled with "maximum.png". There are also other files for your reference.
 
 1. *actor.pth*. It's neural network of the Actor in deep reinforcement learning.
 
